@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "drorko.workspace-monitors",
+  "name": "Workspace Monitors",
+  "version": "1.0.0",
+  "author": "Dror Peretz",
+  "description": "Choose which monitor holds each workspace: drag a workspace between monitor cards to move it, click one to make it the workspace that monitor shows when it connects.",
+  "kinds": [
+    "bar-widget"
+  ],
+  "entryPoints": {
+    "barWidget": "Panel.qml"
+  },
+  "barWidget": {
+    "displayName": "Workspace Monitors",
+    "description": "Drag workspaces between monitors",
+    "category": "System",
+    "allowMultiple": false,
+    "defaultSection": "right"
+  },
+  "license": "MIT"
+}
